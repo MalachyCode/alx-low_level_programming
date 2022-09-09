@@ -2,17 +2,19 @@
 #include <unistd.h>
 /**
  * main - main block
- * Description: prints alphabets in lowercase
- * :Return: Always 0 (success)
+ * Description: Use 'putchar' function to print the alphabet in lowercase.
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int ch;
+	char c = 'a';
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	while (c <= 'z')
 	{
-		putchar(ch);
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
+
 	return (0);
 }
