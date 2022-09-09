@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - Entry point
+ * main - main block
  * Description: prints alphabets in lowercase
  * :Return: Always 0 (success)
  */
