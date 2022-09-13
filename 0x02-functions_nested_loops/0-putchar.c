@@ -2,6 +2,7 @@
 /**
  * main - Entry point
  * Description: program to print _putchar
+ * _putchar: replaces prinf and is used to print
  * Return: Always 0 (success)
  */
 
@@ -17,5 +18,5 @@ int _putchar(char c)
 	_putchar("r");
 	_putchar("\n");
 
-	 return (0);
+	return (0);
 }
