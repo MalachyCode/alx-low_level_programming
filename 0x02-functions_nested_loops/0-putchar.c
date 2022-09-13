@@ -1,4 +1,4 @@
-#include "main.h";
+#include "main.h"
 /**
  * main - prints putchar
  * _putchar: replaces prinf and is used to print
