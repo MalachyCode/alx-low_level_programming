@@ -4,27 +4,22 @@
  * main - program that prints out the largest prime factor of a number
  * Return: 0
  */
+
 int main(void)
 {
-	int 1 = 2;
-	long n = 612852475143;
+	long num = 612852475143;
+	long divisor = 2;
+	long larg_prim = 0;
 
-
-	while (i < n)
+	while (num != 1)
 	{
-		while (n % i == 0)
+		if (num % divisor == 0)
 		{
-			if (n == i)
-			{
-				break;
-			}
-			(n /= i);
+			num = num / divisor;
+			larg_prim = divisor;
 		}
-		i++;
-
-
+		divisor += 1;
 	}
-
-	printf("%lu\n", n);
+	printf("%ld\n", larg_prim);
 	return (0);
 }
