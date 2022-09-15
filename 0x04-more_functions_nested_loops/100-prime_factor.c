@@ -18,7 +18,7 @@ int main(void)
 			{
 				break;
 			}
-			n /= i;
+			(n /= i);
 		}
 		i++;
 
