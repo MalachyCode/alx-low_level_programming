@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen - returns length of a string
+ * _strlen - returns the length of a string
  * @s: string s
  * Return: length of string
  */
@@ -20,9 +20,9 @@ int _strlen(char *s)
 
 /**
  * puts_half - prints the second half of the string
- * @str: the string reference
- * Return: 0
+ * @str: string
  */
+
 void puts_half(char *str)
 {
 	int length, i, half;
@@ -31,6 +31,6 @@ void puts_half(char *str)
 	half = (length % 2 == 0) ? length / 2 : (length - 1) / 2 + 1;
 
 	for (i = half; i < length; i++)
-		_putchar(*(str + 1));
+		_putchar(*(str + i));
 	_putchar('\n');
 }
