@@ -1,28 +1,18 @@
 #include "main.h"
 
 /**
- * _strlen - returns the length of a string
- * @s: string s
- * Return: length of string
- */
-void _strlen(char *s)
-{
-	char *p = s;
-
-	while (*s)
-		s++;
-	return (s - p);
-}
-/**
  * print_rev - prints a string in reverse
- * @s: string s
+ * @s: the used string reference pointer
+ * Return: 0
  */
 
 void print_rev(char *s)
 {
-	int size = _strlen(s);
+	int i = 0;
 
-	while (size--)
-		_putchar(*(s + size));
+	while (s[i])
+		i++;
+	while (i--)
+		_putchar(s[i]);
 	_putchar('\n');
 }
