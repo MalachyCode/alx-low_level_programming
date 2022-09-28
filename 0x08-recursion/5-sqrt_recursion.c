@@ -3,7 +3,7 @@
 /**
  * isSqrt - helper function for _sqrt_recursion
  * @n: input number
- * @i: iteratotr
+ * @i: iterator
  * Return: square root of number
  */
 
@@ -17,7 +17,7 @@ int isSqrt(int n, int i)
 }
 
 /**
- * _sqrt_recursion - returns the natural square root of a number
+ * _sqrt_recursion - returns the the natural square root of a number.
  * @n: input number
  * Return: square root of number, -1 if false
  */
