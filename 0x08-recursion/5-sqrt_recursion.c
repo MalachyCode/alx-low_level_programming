@@ -13,7 +13,7 @@ int isSqrt(int n, int i)
 		return (-1);
 	if (i * i == n)
 		return (1);
-	return (_sqrt_recursion(n, i + 1));
+	return (isSqrt(n, i + 1));
 }
 
 /**
