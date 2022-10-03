@@ -4,7 +4,6 @@
 /**
  * _strdup - returns a pointer to a duplicate of str
  * @str: string
- * @copy: the duplicated str
  *
  * Return: duplicate string
  */
