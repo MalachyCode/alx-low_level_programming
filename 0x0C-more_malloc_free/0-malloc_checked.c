@@ -11,11 +11,8 @@
 void *malloc_checked(unsigned int b)
 {
 	char *str;
-	int size;
 
-	size = b;
-
-	str = malloc(sizeof(*str) * size);
+	str = malloc(sizeof(*str) * b);
 	if (str == NULL)
 	{
 		printf("98\n");
